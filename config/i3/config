@@ -195,7 +195,8 @@ for_window [class=".*"] border pixel 3
 set_from_resource $col12 color12 #FFC0CB
 
 # class        border        background     text     indicator     child-border
-client.focused $col12 $col12 #AC583B $col12    #AC583B
+# class        border        background     text     indicator     child-border
+client.focused $col12 $col12 #AC583B $col12    #e6b3ff
 client.unfocused               #AC583B #AC583B #888888 #292d2e   #AC583B
 
 gaps inner 6
